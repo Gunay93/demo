@@ -1,21 +1,21 @@
 const data = [
   {
     id: 1,
-    icon: "/images/1.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/1.jpg`,
     title: "July 2010",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum",
   },
   {
     id: 2,
-    icon: "/images/2.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/2.jpg`,
     title: "July 2010",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum",
   },
   {
     id: 3,
-    icon: "/images/3.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/3.jpg`,
     title: "July 2010",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum",
@@ -23,7 +23,7 @@ const data = [
 
   {
     id: 4,
-    icon: "/images/4.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/4.jpg`,
     title: "July 2010",
     description:
       "lorem ipsumlorem ipsumlorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum",

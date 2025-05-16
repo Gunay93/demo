@@ -4,37 +4,37 @@ import { FaSearchPlus } from "react-icons/fa";
 const portfolios = [
   {
     id: 1,
-    icon: "/images/product1.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/product1.jpg`,
     title: "Swim",
     description: "Illustration",
   },
   {
     id: 2,
-    icon: "/images/product2.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/product2.jpg`,
     title: "Restaurant",
     description: "Photography",
   },
   {
     id: 3,
-    icon: "/images/product3.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/product3.jpg`,
     title: "Taxi",
     description: "Branding",
   },
   {
     id: 4,
-    icon: "/images/product4.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/product4.jpg`,
     title: "Taxi",
     description: "Branding",
   },
   {
     id: 5,
-    icon: "/images/product5.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/product5.jpg`,
     title: "Taxi",
     description: "Branding",
   },
   {
     id: 6,
-    icon: "/images/product6.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/product6.jpg`,
     title: "Taxi",
     description: "Branding",
   },

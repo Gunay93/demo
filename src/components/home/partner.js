@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 const data = [
   {
     id: 1,
-    icon: "/images/creative-market.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/creative-market.jpg`,
   },
   {
     id: 2,
-    icon: "/images/designmodo.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/designmodo.jpg`,
   },
   {
     id: 3,
-    icon: "/images/envato.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/envato.jpg`,
   },
   {
     id: 4,
-    icon: "/images/themeforest.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/themeforest.jpg`,
   },
 ];
 const Partner = () => {

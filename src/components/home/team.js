@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 const data = [
   {
     id: 1,
-    icon: "/images/person1.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/person1.jpg`,
     fullname: "Gunay H",
     position: "Front-End Programmer",
   },
   {
     id: 2,
-    icon: "/images/person2.jpg",
+    icon: `${process.env.PUBLIC_URL}/images/person2.jpg`,
     fullname: "Lorem ipsum",
     position: "Front-End Programmer",
   },
   {
     id: 3,
-    icon: "/images/person3.png",
+    icon: `${process.env.PUBLIC_URL}/images/person3.png`,
     fullname: "Lorem ipsum 2",
     position: "Front-End Programmer",
   },
