@@ -1,19 +1,19 @@
 const services = [
     {
         id:1,
-        icon:'/images/swimming.png',
+        icon:`${process.env.PUBLIC_URL}/images/swimming.png`,
         title:'Swim',
         description: "Lorem ipsum"
     },
     {
         id:2,
-        icon:'/images/restaurant.png',
+        icon:`${process.env.PUBLIC_URL}/images/restaurant.png`,
         title:'Restaurant',
         description: "Lorem ipsum"
     },
     {
         id:3,
-        icon:'/images/taxi.png',
+        icon:`${process.env.PUBLIC_URL}/images/taxi.png`,
         title:'Taxi',
         description: "Lorem ipsum"
     },
