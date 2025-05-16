@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <Link className="navbar-brand" href="#">
-        <img src="/images/logo.png" alt="" />
+        <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="" />
       </Link>
       <button
         className="navbar-toggler navbar-toggler-right"
