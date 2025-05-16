@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
     return (
-    <BrowserRouter>
+    <BrowserRouter basename="/demo">
         <Main>
             <Routes>
                 {routesPages.map((route, index) => (
